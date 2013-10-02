@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/to-pascal-case
+    $ npm install to-pascal-case
 
 ## Example
 
