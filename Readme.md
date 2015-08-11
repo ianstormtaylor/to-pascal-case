@@ -20,7 +20,7 @@ pascal('weird[case'); // "WeirdCase"
 
 ## API
 
-### toCamelCase(string)
+### toPascalCase(string)
   
   Returns the pascal-case variant of a `string`.
 
