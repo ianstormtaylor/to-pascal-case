@@ -1,13 +1,11 @@
 
-var toSpace = require('to-space-case');
-
+var space = require('to-space-case')
 
 /**
- * Expose `toPascalCase`.
+ * Export.
  */
 
-module.exports = toPascalCase;
-
+module.exports = toPascalCase
 
 /**
  * Convert a `string` to pascal case.
@@ -16,9 +14,8 @@ module.exports = toPascalCase;
  * @return {String}
  */
 
-
-function toPascalCase (string) {
-  return toSpace(string).replace(/(?:^|\s)(\w)/g, function (matches, letter) {
-    return letter.toUpperCase();
-  });
+function toPascalCase(string) {
+  return space(string).replace(/(?:^|\s)(\w)/g, function (matches, letter) {
+    return letter.toUpperCase()
+  })
 }

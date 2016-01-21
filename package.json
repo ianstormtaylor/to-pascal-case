@@ -1,11 +1,19 @@
 {
   "name": "to-pascal-case",
+  "version": "1.0.0",
+  "description": "Convert a string to pascal case.",
   "repository": "git://github.com/ianstormtaylor/to-pascal-case.git",
   "license": "MIT",
-  "version": "0.0.2",
-  "description": "Convert a string to pascal case.",
-  "keywords": ["pascal", "case", "pascalcase", "string"],
   "dependencies": {
-    "to-space-case": "0.1.2"
-  }
+    "to-space-case": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "keywords": [
+    "pascal",
+    "case",
+    "pascalcase",
+    "string"
+  ]
 }
