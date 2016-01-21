@@ -14,12 +14,12 @@ $ npm install to-pascal-case
 ## Example
 
 ```js
-var toPascalCase = require('to-pascal-case');
+var toPascalCase = require('to-pascal-case')
 
-toPascalCase('space case');  // "SpaceCase"
-toPascalCase('snake_case');  // "SnakeCase"
-toPascalCase('dot.case');    // "DotCase"
-toPascalCase('weird[case');  // "WeirdCase"
+toPascalCase('space case')  // "SpaceCase"
+toPascalCase('snake_case')  // "SnakeCase"
+toPascalCase('dot.case')    // "DotCase"
+toPascalCase('weird[case')  // "WeirdCase"
 ```
 
 
